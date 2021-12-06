@@ -1,7 +1,9 @@
-# Google image search example robot
 
-Executes Google image search and stores the first result image.
+구글에서 이미지 스크래핑
 
-Click the link below to get to the code:
+powershell로 구글 검색어, 스크래핑 이미지 개수 setting
+[Environment]::SetEnvironmentVariable('SEARCH_TEXT', 'cute cat img', 'User');
+[Environment]::SetEnvironmentVariable('IMG_CNT', '100', 'User');
 
-[tasks.robot](./tasks.robot)
+cmd에서 아래 명령어로 스크래핑 시작
+run rcc
